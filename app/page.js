@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from 'react';
 import { categories, examples, mergeBackup, storageKey, validIdea } from '../lib/ideas';
+import Graph from './graph';
 
 export default function Home() {
   const [ideas, setIdeas] = useState([]);
@@ -111,6 +112,8 @@ export default function Home() {
   const samples = ready && ideas.length === 0 && view === 'shelf' && !query;
   const shown = (samples ? examples : ideas).filter(x => x.resting === (view === 'resting') && `${x.title} ${x.body} ${x.category}`.toLowerCase().includes(query));
   const current = ideas.find(x => x.id === draft?.id);
+  const graphing = view === 'graph';
+  const tabLabels = { shelf: ['On the shelf', shelfCount], resting: ['Resting', ideas.length - shelfCount], graph: ['Graph'] };
 
   return <>
     <div className="shell">
@@ -119,16 +122,18 @@ export default function Home() {
         <section className="shelf" aria-label="Your ideas" aria-busy={!ready}>
           <div className="toolbar">
             <div className="tabs" role="group" aria-label="Idea shelf">
-              {['shelf', 'resting'].map(tab => <button key={tab} className={`tab ${view === tab ? 'active' : ''}`} data-view={tab} aria-pressed={view === tab} onClick={() => setView(tab)}>{tab === 'shelf' ? 'On the shelf' : 'Resting'} <span>{tab === 'shelf' ? shelfCount : ideas.length - shelfCount}</span></button>)}
+              {Object.entries(tabLabels).map(([tab, [label, count]]) => <button key={tab} className={`tab ${view === tab ? 'active' : ''}`} data-view={tab} aria-pressed={view === tab} onClick={() => setView(tab)}>{label}{count !== undefined && <> <span>{count}</span></>}</button>)}
             </div>
             <div className="tools"><label className="search"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Find a thought…" aria-label="Search ideas" value={search} onChange={e => setSearch(e.target.value)} /></label><button id="rediscover" className="button rediscover" disabled={!ideas.length} onClick={rediscover} title="Open a random saved idea, including resting ideas"><span aria-hidden="true">↝</span> Rediscover</button></div>
           </div>
+          {graphing ? ready && <><div className="shelf-caption"><span>{ideas.length ? 'Every idea from both shelves, grouped by category.' : 'Example ideas. Save one or add your own.'}</span></div><Graph ideas={ideas.length ? ideas : examples} query={search} onOpen={idea => openEditor(idea)} /></> : <>
           <div className="shelf-caption"><span>{!ready ? 'Loading your ideas…' : samples ? 'Example ideas. Save one or add your own.' : view === 'resting' ? 'Ideas set aside for later.' : 'Your saved ideas.'}</span><span id="idea-count">{ready && (samples ? '6 example ideas' : `${shown.length} ${shown.length === 1 ? 'idea' : 'ideas'}`)}</span></div>
           <div id="cards" className="cards">{shown.map(idea => <button key={idea.id} type="button" className="card" data-category={idea.category} onClick={() => openEditor(idea)}>
             <div className="card-category">{idea.category}{idea.sample && <span className="sample">EXAMPLE</span>}</div>
             <h2>{idea.title}</h2><p>{idea.body}</p><div className="card-foot"><span>{idea.sample ? 'Example · click to edit' : `Left here ${new Date(idea.created).toLocaleDateString(undefined, { month: 'short', day: 'numeric' })}`}</span><span className="arrow" aria-hidden="true">↗</span></div>
           </button>)}</div>
           {ready && !shown.length && <div id="empty" className="empty"><h2>{query ? 'No thoughts found here.' : view === 'resting' ? 'Nothing resting just yet.' : 'A little room for possibility.'}</h2><p>{query ? 'Try another word or look on the other shelf.' : view === 'resting' ? 'Let an idea rest when you want to set it aside.' : 'Your ideas can start with a single sentence.'}</p>{!query && view === 'shelf' && <button className="button" onClick={() => openEditor()}>Leave your first idea ↗</button>}</div>}
+          </>}
         </section>
       </main>
       <footer><span>Built by <a href="https://vibecorp.xyz" target="_blank" rel="noreferrer">VibeCorp ↗</a></span><div><span className="local-note">Saved on this device</span><button id="export" disabled={!ready} onClick={exportIdeas}>Export</button><button id="import" disabled={!ready} onClick={() => importInput.current.click()}>Import</button><input ref={importInput} type="file" id="import-file" accept="application/json,.json" hidden onChange={importIdeas} /></div></footer>
@@ -136,7 +141,7 @@ export default function Home() {
     <dialog id="editor" ref={dialog} aria-labelledby="editor-label" onClose={() => setDraft(null)}>{draft && <form id="idea-form" onSubmit={save}>
       <div className="dialog-top"><span className="eyebrow" id="editor-label">{editorLabel}</span><button type="button" className="icon-button" id="close" aria-label="Close editor" onClick={closeEditor}>×</button></div>
       <label className="sr-only" htmlFor="title">Idea title</label><input ref={titleInput} id="title" className="title-input" placeholder="Idea title" maxLength={140} required value={draft.title} onChange={e => { e.target.setCustomValidity(''); setDraft({ ...draft, title: e.target.value }); }} />
-      <label className="sr-only" htmlFor="body">Notes</label><textarea id="body" placeholder="Notes, questions, or anything to come back to." maxLength={12000} value={draft.body} onChange={e => setDraft({ ...draft, body: e.target.value })} />
+      <label className="sr-only" htmlFor="body">Notes</label><textarea id="body" placeholder="Notes, questions, or [[Another idea]] to link them." maxLength={12000} value={draft.body} onChange={e => setDraft({ ...draft, body: e.target.value })} />
       <div className="form-bottom"><label className="category-label">Filed under<select id="category" value={draft.category} onChange={e => setDraft({ ...draft, category: e.target.value })}>{categories.map(category => <option key={category}>{category}</option>)}</select></label><button className="button primary" type="submit">{current ? 'Save changes' : 'Save idea'}</button></div>
       {current && <div id="edit-actions" className="edit-actions"><button type="button" id="rest" onClick={toggleRest}>{current.resting ? 'Bring back to shelf' : 'Let it rest'}</button><button type="button" id="delete" onClick={remove}>Delete idea</button></div>}
     </form>}</dialog>

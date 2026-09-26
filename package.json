@@ -7,7 +7,7 @@
     "dev": "next dev --port 3000",
     "build": "next build",
     "start": "next start --port 3000",
-    "check": "node --test lib/ideas.test.js"
+    "check": "node --test lib/*.test.js"
   },
   "description": "A minimal, local-first shelf for unfinished ideas.",
   "license": "MIT",

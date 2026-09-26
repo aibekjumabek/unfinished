@@ -19,7 +19,9 @@ export const metadata = {
   title: 'Unfinished — room to become',
   description: 'A quiet place for ideas you’re not ready to finish.',
 };
-export const viewport = { themeColor: '#ffffff' };
+export const viewport = {
+  themeColor: [{ media: '(prefers-color-scheme: light)', color: '#ffffff' }, { media: '(prefers-color-scheme: dark)', color: '#0f1115' }],
+};
 
 export default function RootLayout({ children }) {
   return <html lang="en"><body>{children}<Analytics /></body></html>;

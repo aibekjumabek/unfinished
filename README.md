@@ -32,7 +32,7 @@ Checks: `pnpm check` and `pnpm build`.
 
 ## Deploy to Vercel
 
-Import this directory as the project root and select the Next.js preset. Vercel detects pnpm from the lockfile. Build with `pnpm build`; leave the output directory at its Next.js default.
+Import this directory as the project root. `vercel.json` explicitly selects Next.js, builds with `pnpm build`, and uses `.next` as the output directory, overriding stale static-site settings. Dependencies install with the frozen pnpm lockfile.
 
 Enable **Web Analytics** in the Vercel project dashboard before deploying (or redeploy after enabling). The root layout uses `@vercel/analytics/next`.
 

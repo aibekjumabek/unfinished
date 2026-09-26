@@ -61,4 +61,4 @@ Bug reports and focused improvements are welcome. See [CONTRIBUTING.md](CONTRIBU
 
 ## License
 
-[MIT](LICENSE) — Copyright (c) 2026 VibeCorp.
+[MIT](LICENSE) — Copyright (c) 2026 Aibek Jumabek.

@@ -1,0 +1,1093 @@
+{
+  "version": 1,
+  "ideas": [
+    {
+      "id": "test-01",
+      "title": "Rooms remember the people in them",
+      "body": "The kitchen still feels like my grandmother. Maybe places keep a shape of us. Related to A map of places I felt at home.",
+      "category": "A thought",
+      "created": "2026-06-02T14:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-02",
+      "title": "Boredom is where ideas hatch",
+      "body": "Every good thought this year came while waiting for something. See Phone-free Sunday mornings.",
+      "category": "A thought",
+      "created": "2026-06-03T19:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-03",
+      "title": "Handwriting is thinking slowly",
+      "body": "Typing is fast enough to skip the thinking. Pen forces the sentence to exist first.",
+      "category": "A thought",
+      "created": "2026-06-05T00:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-04",
+      "title": "Most advice is autobiography",
+      "body": "People tell you what would have helped them, ten years ago.",
+      "category": "A thought",
+      "created": "2026-06-06T05:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-05",
+      "title": "A map of places I felt at home",
+      "body": "The corner table. That stretch of coastline. Someone’s kitchen. Could become Draw a map from memory.",
+      "category": "A thought",
+      "created": "2026-06-07T10:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-06",
+      "title": "Small rituals hold a day together",
+      "body": "Morning tea, the walk after lunch. Tiny anchors. See A kettle club.",
+      "category": "A thought",
+      "created": "2026-06-08T15:00:00.000Z",
+      "resting": true
+    },
+    {
+      "id": "test-07",
+      "title": "Cities have moods by the hour",
+      "body": "6am optimism, 4pm fatigue, 11pm secrets.",
+      "category": "A thought",
+      "created": "2026-06-09T20:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-08",
+      "title": "We collect more than we use",
+      "body": "Books, tabs, ideas. This app is a collection too — is that okay? Why do I keep unfinished things?",
+      "category": "A thought",
+      "created": "2026-06-11T01:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-09",
+      "title": "Walking solves what sitting cannot",
+      "body": "Something about the rhythm. Pairs with Sound walk through the old town.",
+      "category": "A thought",
+      "created": "2026-06-12T06:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-10",
+      "title": "Old software felt calmer",
+      "body": "Fewer notifications, fewer choices. A website that grows one leaf a day tries to bring that back.",
+      "category": "A thought",
+      "created": "2026-06-13T11:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-11",
+      "title": "Weather changes what I want to make",
+      "body": "Rain wants stories; sun wants building. A bookshop that opens only when it rains",
+      "category": "A thought",
+      "created": "2026-06-14T16:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-12",
+      "title": "Friends are the people who remember your questions",
+      "body": "Not your answers. Your questions.",
+      "category": "A thought",
+      "created": "2026-06-15T21:00:00.000Z",
+      "resting": true
+    },
+    {
+      "id": "test-13",
+      "title": "Maybe unfinished is a feature",
+      "body": "An open loop keeps you curious. Why do I keep unfinished things?",
+      "category": "A thought",
+      "created": "2026-06-17T02:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-14",
+      "title": "Quiet is a kind of luxury now",
+      "body": "Silence costs money: noise-cancelling, cabins, retreats.",
+      "category": "A thought",
+      "created": "2026-06-18T07:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-15",
+      "title": "Every hobby is a tiny research lab",
+      "body": "You run experiments, you log results, nobody grades you.",
+      "category": "A thought",
+      "created": "2026-06-19T12:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-16",
+      "title": "A bookshop that opens only when it rains",
+      "body": "No schedule. Just a light in the window and a kettle on. Needs A kettle club.",
+      "category": "Someday",
+      "created": "2026-06-20T17:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-17",
+      "title": "Learn to bind my own notebooks",
+      "body": "Linen thread, a bone folder, patience. For Handwriting is thinking slowly.",
+      "category": "Someday",
+      "created": "2026-06-21T22:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-18",
+      "title": "Walk the whole coastline in stages",
+      "body": "One weekend a month. Would fill A map of places I felt at home.",
+      "category": "Someday",
+      "created": "2026-06-23T03:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-19",
+      "title": "Dinner with a different decade",
+      "body": "One recipe, one record, one story per evening.",
+      "category": "Someday",
+      "created": "2026-06-24T08:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-20",
+      "title": "Build a tiny cabin with friends",
+      "body": "Nothing fancy. A stove and a window facing west.",
+      "category": "Someday",
+      "created": "2026-06-25T13:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-21",
+      "title": "Write letters to my future kids",
+      "body": "One a year, sealed. Maybe answers Friends are the people who remember your questions.",
+      "category": "Someday",
+      "created": "2026-06-26T18:00:00.000Z",
+      "resting": true
+    },
+    {
+      "id": "test-22",
+      "title": "Open a repair café",
+      "body": "Fix toasters and lamps on Saturdays. Fix one broken thing a week as a warm-up.",
+      "category": "Someday",
+      "created": "2026-06-27T23:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-23",
+      "title": "A kettle club",
+      "body": "Neighbours, tea, no agenda. Meets whenever someone puts the kettle on.",
+      "category": "Someday",
+      "created": "2026-06-29T04:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-24",
+      "title": "Record my grandmother’s recipes",
+      "body": "Before they vanish. Video, not just text. Rooms remember the people in them",
+      "category": "Someday",
+      "created": "2026-06-30T09:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-25",
+      "title": "Learn the cello badly and happily",
+      "body": "No performances. Just the sound in a small room.",
+      "category": "Someday",
+      "created": "2026-07-01T14:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-26",
+      "title": "Plant an orchard for strangers",
+      "body": "Fruit trees along a path anyone can pick from.",
+      "category": "Someday",
+      "created": "2026-07-02T19:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-27",
+      "title": "Spend a winter somewhere dark",
+      "body": "Northern Norway, to understand Quiet is a kind of luxury now.",
+      "category": "Someday",
+      "created": "2026-07-04T00:00:00.000Z",
+      "resting": true
+    },
+    {
+      "id": "test-28",
+      "title": "Make a board game about slow travel",
+      "body": "You win by missing connections. Test it in Board game night with no winners.",
+      "category": "Someday",
+      "created": "2026-07-05T05:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-29",
+      "title": "Host a year of Sunday suppers",
+      "body": "Fifty-two dinners, one guest who has never met the others.",
+      "category": "Someday",
+      "created": "2026-07-06T10:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-30",
+      "title": "Turn the garage into a print studio",
+      "body": "Letterpress, zines, posters for A kettle club.",
+      "category": "Someday",
+      "created": "2026-07-07T15:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-31",
+      "title": "Why do I keep unfinished things?",
+      "body": "Is it fear of finishing, or love of beginning? Maybe unfinished is a feature",
+      "category": "A question",
+      "created": "2026-07-08T20:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-32",
+      "title": "What would a slow social network look like?",
+      "body": "One post a week. Replies arrive the next day. A website that grows one leaf a day",
+      "category": "A question",
+      "created": "2026-07-10T01:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-33",
+      "title": "Where do the little ideas go?",
+      "body": "The ones that arrive on a walk and vanish by home. Walking solves what sitting cannot",
+      "category": "A question",
+      "created": "2026-07-11T06:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-34",
+      "title": "What makes a place feel like home?",
+      "body": "Light? Smell? The people? Rooms remember the people in them",
+      "category": "A question",
+      "created": "2026-07-12T11:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-35",
+      "title": "How do birds agree on a direction?",
+      "body": "No leader, yet the flock turns together.",
+      "category": "A question",
+      "created": "2026-07-13T16:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-36",
+      "title": "Can a city be designed for boredom?",
+      "body": "Benches without screens, streets without ads. Boredom is where ideas hatch",
+      "category": "A question",
+      "created": "2026-07-14T21:00:00.000Z",
+      "resting": true
+    },
+    {
+      "id": "test-37",
+      "title": "Why does music from age 15 stick forever?",
+      "body": "Some kind of imprinting window?",
+      "category": "A question",
+      "created": "2026-07-16T02:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-38",
+      "title": "What would I do with one extra hour a day?",
+      "body": "Honestly? Probably Learn the cello badly and happily.",
+      "category": "A question",
+      "created": "2026-07-17T07:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-39",
+      "title": "Is taste learned or discovered?",
+      "body": "Did I learn to like bitter coffee, or find out I already did?",
+      "category": "A question",
+      "created": "2026-07-18T12:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-40",
+      "title": "How do libraries decide what to keep?",
+      "body": "Weeding books sounds sad. Who decides? A library of smells",
+      "category": "A question",
+      "created": "2026-07-19T17:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-41",
+      "title": "Why is it easier to give advice than take it?",
+      "body": "Most advice is autobiography might explain it.",
+      "category": "A question",
+      "created": "2026-07-20T22:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-42",
+      "title": "What did people do on long evenings before electricity?",
+      "body": "Stories, songs, sleep. Dinner with a different decade",
+      "category": "A question",
+      "created": "2026-07-22T03:00:00.000Z",
+      "resting": true
+    },
+    {
+      "id": "test-43",
+      "title": "Can you be nostalgic for a place you never lived?",
+      "body": "I miss towns I have only seen in films.",
+      "category": "A question",
+      "created": "2026-07-23T08:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-44",
+      "title": "What makes a question good?",
+      "body": "Maybe one that makes the next question better.",
+      "category": "A question",
+      "created": "2026-07-24T13:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-45",
+      "title": "How long does it take to really know a street?",
+      "body": "A year of walking it? Test with Sound walk through the old town.",
+      "category": "A question",
+      "created": "2026-07-25T18:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-46",
+      "title": "A website that grows one leaf a day",
+      "body": "Nothing to optimise, nothing to catch up on. Answers What would a slow social network look like?",
+      "category": "An experiment",
+      "created": "2026-07-26T23:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-47",
+      "title": "Phone-free Sunday mornings",
+      "body": "Four weeks. Log mood before and after. Boredom is where ideas hatch",
+      "category": "An experiment",
+      "created": "2026-07-28T04:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-48",
+      "title": "Sound walk through the old town",
+      "body": "Record one minute at every corner, make a map of sounds.",
+      "category": "An experiment",
+      "created": "2026-07-29T09:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-49",
+      "title": "A library of smells",
+      "body": "Jars with labels: rain on asphalt, old paper, orange peel.",
+      "category": "An experiment",
+      "created": "2026-07-30T14:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-50",
+      "title": "Draw a map from memory",
+      "body": "Draw my neighbourhood without looking, then compare. A map of places I felt at home",
+      "category": "An experiment",
+      "created": "2026-07-31T19:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-51",
+      "title": "Fix one broken thing a week",
+      "body": "Start with the lamp. Keep a repair log.",
+      "category": "An experiment",
+      "created": "2026-08-02T00:00:00.000Z",
+      "resting": true
+    },
+    {
+      "id": "test-52",
+      "title": "Write one sentence every morning",
+      "body": "365 sentences. Maybe a story appears. Handwriting is thinking slowly",
+      "category": "An experiment",
+      "created": "2026-08-03T05:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-53",
+      "title": "Board game night with no winners",
+      "body": "Only cooperative games for a month. Does the mood change?",
+      "category": "An experiment",
+      "created": "2026-08-04T10:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-54",
+      "title": "Cook only from one old cookbook for a month",
+      "body": "Chosen from a charity shop. Dinner with a different decade",
+      "category": "An experiment",
+      "created": "2026-08-05T15:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-55",
+      "title": "Leave notes in library books",
+      "body": "Kind notes for the next reader. How do libraries decide what to keep?",
+      "category": "An experiment",
+      "created": "2026-08-06T20:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-56",
+      "title": "Track the weather and my mood",
+      "body": "Spreadsheet for 90 days. Checks Weather changes what I want to make.",
+      "category": "An experiment",
+      "created": "2026-08-08T01:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-57",
+      "title": "A week of only walking",
+      "body": "No bus, no car. Where can I actually get to?",
+      "category": "An experiment",
+      "created": "2026-08-09T06:00:00.000Z",
+      "resting": true
+    },
+    {
+      "id": "test-58",
+      "title": "Ask strangers one question a day",
+      "body": "Collect the answers in a notebook. What makes a question good?",
+      "category": "An experiment",
+      "created": "2026-08-10T11:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-59",
+      "title": "Plant seeds from supermarket fruit",
+      "body": "Lemons, peppers, avocado. What survives a windowsill?",
+      "category": "An experiment",
+      "created": "2026-08-11T16:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-60",
+      "title": "A radio station for one street",
+      "body": "Low-power FM, neighbours as DJs. Could advertise A kettle club.",
+      "category": "An experiment",
+      "created": "2026-08-12T21:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-061",
+      "title": "Silence has a texture",
+      "body": "Library silence, snow silence, the silence after an argument.",
+      "category": "A thought",
+      "created": "2026-08-13T04:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-062",
+      "title": "Maps lie politely",
+      "body": "Every map leaves things out so the rest can be read.",
+      "category": "A thought",
+      "created": "2026-08-13T11:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-063",
+      "title": "The best tools disappear",
+      "body": "You stop noticing the pen and just write.",
+      "category": "A thought",
+      "created": "2026-08-13T18:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-064",
+      "title": "Kindness scales badly and that is fine",
+      "body": "Some things are meant to stay one person wide.",
+      "category": "A thought",
+      "created": "2026-08-14T01:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-065",
+      "title": "Every city has a secret slow lane",
+      "body": "A back street where nobody hurries.",
+      "category": "A thought",
+      "created": "2026-08-14T08:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-066",
+      "title": "Libraries are the last free rooms",
+      "body": "Warm, quiet, and nobody asks you to buy anything.",
+      "category": "A thought",
+      "created": "2026-08-14T15:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-067",
+      "title": "Good questions age well",
+      "body": "An answer dates; a question keeps working.",
+      "category": "A thought",
+      "created": "2026-08-14T22:00:00.000Z",
+      "resting": true
+    },
+    {
+      "id": "test-068",
+      "title": "Hobbies are rehearsals",
+      "body": "Practising being a slightly different person.",
+      "category": "A thought",
+      "created": "2026-08-15T05:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-069",
+      "title": "Memory edits for mood",
+      "body": "The same holiday feels different on a sad day.",
+      "category": "A thought",
+      "created": "2026-08-15T12:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-070",
+      "title": "Notebooks outlive phones",
+      "body": "My school notebooks still open. My first phone does not.",
+      "category": "A thought",
+      "created": "2026-08-15T19:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-071",
+      "title": "Unsent letters still do something",
+      "body": "Writing it down was the point.",
+      "category": "A thought",
+      "created": "2026-08-16T02:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-072",
+      "title": "The internet used to feel like a garden",
+      "body": "Small sites, odd corners, nothing trying to keep you.",
+      "category": "A thought",
+      "created": "2026-08-16T09:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-073",
+      "title": "Trains make everyone a philosopher",
+      "body": "Something about watching the world slide past.",
+      "category": "A thought",
+      "created": "2026-08-16T16:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-074",
+      "title": "Craft is patience made visible",
+      "body": "",
+      "category": "A thought",
+      "created": "2026-08-16T23:00:00.000Z",
+      "resting": true
+    },
+    {
+      "id": "test-075",
+      "title": "A good walk has no destination",
+      "body": "",
+      "category": "A thought",
+      "created": "2026-08-17T06:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-076",
+      "title": "Shops smell like their owners",
+      "body": "Cedar, coffee, old paper, oranges.",
+      "category": "A thought",
+      "created": "2026-08-17T13:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-077",
+      "title": "Children ask better questions than adults",
+      "body": "Because they have not learned which ones are silly.",
+      "category": "A thought",
+      "created": "2026-08-17T20:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-078",
+      "title": "Tea is a timer for conversation",
+      "body": "One cup, one proper talk.",
+      "category": "A thought",
+      "created": "2026-08-18T03:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-079",
+      "title": "Rain makes cities quieter",
+      "body": "Fewer people, softer tyres, everything slowed down.",
+      "category": "A thought",
+      "created": "2026-08-18T10:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-080",
+      "title": "Old photos gain meaning with time",
+      "body": "The background becomes the subject.",
+      "category": "A thought",
+      "created": "2026-08-18T17:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-081",
+      "title": "We remember places by their light",
+      "body": "",
+      "category": "A thought",
+      "created": "2026-08-19T00:00:00.000Z",
+      "resting": true
+    },
+    {
+      "id": "test-082",
+      "title": "Routine is a kind of freedom",
+      "body": "Fewer decisions, more room to think.",
+      "category": "A thought",
+      "created": "2026-08-19T07:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-083",
+      "title": "Some ideas need to stay small",
+      "body": "Not everything has to become a project.",
+      "category": "A thought",
+      "created": "2026-08-19T14:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-084",
+      "title": "Clutter is postponed decisions",
+      "body": "",
+      "category": "A thought",
+      "created": "2026-08-19T21:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-085",
+      "title": "Waiting rooms are underrated",
+      "body": "Permission to do nothing for twenty minutes.",
+      "category": "A thought",
+      "created": "2026-08-20T04:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-086",
+      "title": "Every kitchen has a history",
+      "body": "Burn marks, a wobbly drawer, a recipe taped inside a cupboard.",
+      "category": "A thought",
+      "created": "2026-08-20T11:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-087",
+      "title": "Curiosity is a muscle",
+      "body": "It gets weaker if you only scroll.",
+      "category": "A thought",
+      "created": "2026-08-20T18:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-088",
+      "title": "The first draft is a conversation with yourself",
+      "body": "",
+      "category": "A thought",
+      "created": "2026-08-21T01:00:00.000Z",
+      "resting": true
+    },
+    {
+      "id": "test-089",
+      "title": "Handmade things carry a voice",
+      "body": "You can feel where someone paused.",
+      "category": "A thought",
+      "created": "2026-08-21T08:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-090",
+      "title": "Night buses are moving villages",
+      "body": "Same faces, same stops, a small shared world.",
+      "category": "A thought",
+      "created": "2026-08-21T15:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-091",
+      "title": "Nostalgia is a design material",
+      "body": "",
+      "category": "A thought",
+      "created": "2026-08-21T22:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-092",
+      "title": "Gardens teach patience without lectures",
+      "body": "",
+      "category": "A thought",
+      "created": "2026-08-22T05:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-093",
+      "title": "The margins of books are a second book",
+      "body": "Other readers talking to you across years.",
+      "category": "A thought",
+      "created": "2026-08-22T12:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-094",
+      "title": "Small talk is a handshake",
+      "body": "Not empty, just gentle.",
+      "category": "A thought",
+      "created": "2026-08-22T19:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-095",
+      "title": "Neighbours are accidental family",
+      "body": "",
+      "category": "A thought",
+      "created": "2026-08-23T02:00:00.000Z",
+      "resting": true
+    },
+    {
+      "id": "test-096",
+      "title": "Most rush is imaginary",
+      "body": "Very few things are actually urgent.",
+      "category": "A thought",
+      "created": "2026-08-23T09:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-097",
+      "title": "A song can hold a whole year",
+      "body": "",
+      "category": "A thought",
+      "created": "2026-08-23T16:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-098",
+      "title": "Maps of feelings would be useful",
+      "body": "Where in the city do I feel brave?",
+      "category": "A thought",
+      "created": "2026-08-23T23:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-099",
+      "title": "Leaving things unfinished is honest",
+      "body": "Most of life is in progress.",
+      "category": "A thought",
+      "created": "2026-08-24T06:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-100",
+      "title": "Walking pace is the right speed for thinking",
+      "body": "",
+      "category": "A thought",
+      "created": "2026-08-24T13:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-101",
+      "title": "Collections tell you who someone was",
+      "body": "Stamps, shells, ticket stubs.",
+      "category": "A thought",
+      "created": "2026-08-24T20:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-102",
+      "title": "Why do we name our boats?",
+      "body": "But not our cars, mostly.",
+      "category": "A question",
+      "created": "2026-08-25T03:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-103",
+      "title": "What do cities sound like at 4am?",
+      "body": "",
+      "category": "A question",
+      "created": "2026-08-25T10:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-104",
+      "title": "Why does bread smell like comfort?",
+      "body": "",
+      "category": "A question",
+      "created": "2026-08-25T17:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-105",
+      "title": "How do you know an idea is finished?",
+      "body": "Maybe you never do. Maybe you just stop.",
+      "category": "A question",
+      "created": "2026-08-26T00:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-106",
+      "title": "Where do forgotten umbrellas end up?",
+      "body": "Somewhere there must be a mountain of them.",
+      "category": "A question",
+      "created": "2026-08-26T07:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-107",
+      "title": "Photograph the same tree every week",
+      "body": "A year of one tree.",
+      "category": "An experiment",
+      "created": "2026-08-26T14:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-108",
+      "title": "Swap bookshelves with a friend for a month",
+      "body": "",
+      "category": "An experiment",
+      "created": "2026-08-26T21:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-109",
+      "title": "Learn one constellation a month",
+      "body": "Twelve by next autumn.",
+      "category": "An experiment",
+      "created": "2026-08-27T04:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-110",
+      "title": "A day without a clock",
+      "body": "Eat when hungry, sleep when tired.",
+      "category": "An experiment",
+      "created": "2026-08-27T11:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-111",
+      "title": "Grow mushrooms in a closet",
+      "body": "Oyster mushrooms seem forgiving.",
+      "category": "An experiment",
+      "created": "2026-08-27T18:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-112",
+      "title": "Cook with only five ingredients",
+      "body": "For a whole week.",
+      "category": "An experiment",
+      "created": "2026-08-28T01:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-113",
+      "title": "Keep a dream journal for thirty days",
+      "body": "",
+      "category": "An experiment",
+      "created": "2026-08-28T08:00:00.000Z",
+      "resting": true
+    },
+    {
+      "id": "test-114",
+      "title": "Write a postcard to a stranger each week",
+      "body": "",
+      "category": "An experiment",
+      "created": "2026-08-28T15:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-115",
+      "title": "Walk every street in my neighbourhood",
+      "body": "Mark them off on a paper map.",
+      "category": "An experiment",
+      "created": "2026-08-28T22:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-116",
+      "title": "Build a birdhouse from scrap wood",
+      "body": "",
+      "category": "An experiment",
+      "created": "2026-08-29T05:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-117",
+      "title": "Try a new route to work every day",
+      "body": "How many ways are there, really?",
+      "category": "An experiment",
+      "created": "2026-08-29T12:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-118",
+      "title": "Record the sound of every room at home",
+      "body": "",
+      "category": "An experiment",
+      "created": "2026-08-29T19:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-119",
+      "title": "Only buy second-hand for three months",
+      "body": "",
+      "category": "An experiment",
+      "created": "2026-08-30T02:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-120",
+      "title": "Paint the same view in four seasons",
+      "body": "",
+      "category": "An experiment",
+      "created": "2026-08-30T09:00:00.000Z",
+      "resting": true
+    },
+    {
+      "id": "test-121",
+      "title": "Host a silent dinner",
+      "body": "Good food, no talking, see what happens.",
+      "category": "An experiment",
+      "created": "2026-08-30T16:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-122",
+      "title": "Map where the best benches are",
+      "body": "Shade, view, and how long you can stay.",
+      "category": "An experiment",
+      "created": "2026-08-30T23:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-123",
+      "title": "Learn to whistle a whole song",
+      "body": "",
+      "category": "An experiment",
+      "created": "2026-08-31T06:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-124",
+      "title": "Sketch strangers on the train",
+      "body": "Thirty seconds each, no erasing.",
+      "category": "An experiment",
+      "created": "2026-08-31T13:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-125",
+      "title": "Keep a ledger of small kindnesses",
+      "body": "Given and received.",
+      "category": "An experiment",
+      "created": "2026-08-31T20:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-126",
+      "title": "Make a zine in one weekend",
+      "body": "Staples, a photocopier, no second drafts.",
+      "category": "An experiment",
+      "created": "2026-09-01T03:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-127",
+      "title": "Take the slowest train across the country",
+      "body": "Every stop, no express.",
+      "category": "Travel",
+      "created": "2026-09-01T10:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-128",
+      "title": "Visit a town because of its name",
+      "body": "",
+      "category": "Travel",
+      "created": "2026-09-01T17:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-129",
+      "title": "Spend a night in a lighthouse",
+      "body": "",
+      "category": "Travel",
+      "created": "2026-09-02T00:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-130",
+      "title": "Follow a river from source to sea",
+      "body": "On foot where possible.",
+      "category": "Travel",
+      "created": "2026-09-02T07:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-131",
+      "title": "Walk an old pilgrim route",
+      "body": "",
+      "category": "Travel",
+      "created": "2026-09-02T14:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-132",
+      "title": "Find the best bakery in every town I visit",
+      "body": "Ask the locals, not the internet.",
+      "category": "Travel",
+      "created": "2026-09-02T21:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-133",
+      "title": "See the northern lights from a ferry",
+      "body": "",
+      "category": "Travel",
+      "created": "2026-09-03T04:00:00.000Z",
+      "resting": true
+    },
+    {
+      "id": "test-134",
+      "title": "Sleep in a mountain hut",
+      "body": "Shared bunks, early start.",
+      "category": "Travel",
+      "created": "2026-09-03T11:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-135",
+      "title": "Visit a city in the off-season",
+      "body": "Empty squares, locals only.",
+      "category": "Travel",
+      "created": "2026-09-03T18:00:00.000Z",
+      "resting": false
+    },
+    {
+      "id": "test-136",
+      "title": "Cross a border on foot",
+      "body": "",
+      "category": "Travel",
+      "created": "2026-09-04T01:00:00.000Z",
+      "resting": false
+    }
+  ]
+}

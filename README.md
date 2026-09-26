@@ -6,7 +6,10 @@ Capture a thought, set it aside, and come back when you’re curious again. No a
 
 ## Features
 
-- Create and edit ideas with notes and categories.
+- Create and edit ideas with notes, filed under a built-in category or one you name yourself.
+- Read each idea on its own page at `/its-title`.
+- See every idea in a graph view, clustered and colored by category.
+- Light and dark mode, following the system setting.
 - Search your shelf or move ideas to a resting shelf.
 - Rediscover a random idea from either shelf.
 - Export and import JSON backups.
@@ -44,12 +47,19 @@ Ideas remain browser-local and do not sync between devices. Export local-preview
 
 | File | Purpose |
 | --- | --- |
-| `app/page.js` | React interface, editor, and browser storage |
+| `app/page.js` | Shelf, graph tab, import and export |
+| `app/[slug]/page.js` | Read-only page for one idea |
+| `app/graph.js` | Graph view: physics, zoom, fullscreen |
+| `app/editor.js` | Idea editor dialog and toast |
+| `app/use-ideas.js` | Browser storage for ideas |
 | `app/layout.js` | Metadata and Vercel Analytics |
 | `app/globals.css` | Responsive styles |
 | `app/icon.svg` | Uppercase U favicon |
 | `lib/ideas.js` | Examples and backup validation |
-| `lib/ideas.test.js` | Backup compatibility checks |
+| `lib/ideas.test.js` | Backup compatibility and URL slug checks |
+| `lib/graph.js` | Graph nodes: ideas and their categories |
+| `lib/graph.test.js` | Graph checks |
+| `test-data/sample-ideas.json` | 136 ideas across five categories (including a custom one) to import for testing |
 
 ## Data and privacy
 

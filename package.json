@@ -1,0 +1,25 @@
+{
+  "name": "unfinished",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev --port 3000",
+    "build": "next build",
+    "start": "next start --port 3000",
+    "check": "node --test lib/ideas.test.js"
+  },
+  "description": "A minimal, local-first shelf for unfinished ideas.",
+  "license": "MIT",
+  "author": "VibeCorp",
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "@vercel/analytics": "2.0.1",
+    "next": "16.3.6",
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  },
+  "packageManager": "pnpm@11.24.0"
+}

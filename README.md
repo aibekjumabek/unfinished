@@ -29,7 +29,7 @@ Open http://localhost:3000. Set `PORT` to choose another port.
 
 Ideas are stored in this browser's localStorage. Export a JSON backup to move them to another browser or device; importing merges new IDs without replacing existing ideas. Example cards are inspiration, not saved ideas, until you save one. Rediscover draws from both shelves, avoiding the last result when possible.
 
-Built with Next.js App Router and React. System fonts keep the interface self-contained.
+Built with Next.js App Router and React. Work Sans and Fira Code (vale.rocks' typefaces) are bundled at build time with `next/font`, so the app makes no font requests at runtime.
 
 Checks: `pnpm check` and `pnpm build`.
 

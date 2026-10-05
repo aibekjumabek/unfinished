@@ -15,7 +15,7 @@ export default function Image() {
         <div style={{ fontSize: 88, fontWeight: 700, letterSpacing: '-4px', lineHeight: 1.1 }}>Unfinished</div>
         <div style={{ fontSize: 32, color: '#5e5a5a', marginTop: 22 }}>A place for ideas you’re not ready to finish.</div>
       </div>
-      <div style={{ display: 'flex', marginTop: 'auto', paddingTop: 24, borderTop: '1px solid #dac5b3', color: '#5e5a5a', fontSize: 20 }}>Built by VibeCorp</div>
+      <div style={{ display: 'flex', marginTop: 'auto', paddingTop: 24, borderTop: '1px solid #dac5b3', color: '#5e5a5a', fontSize: 20 }}>Built by TinyDot Labs</div>
     </div>,
     size,
   );

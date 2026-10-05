@@ -11,7 +11,7 @@
   },
   "description": "A minimal, local-first shelf for unfinished ideas.",
   "license": "MIT",
-  "author": "VibeCorp",
+  "author": "TinyDot Labs",
   "engines": {
     "node": ">=22"
   },

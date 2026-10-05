@@ -1,6 +1,6 @@
 # Unfinished
 
-A minimal place for ideas you’re not ready to finish. Built by [VibeCorp](https://vibecorp.xyz).
+A minimal place for ideas you’re not ready to finish. Built by [TinyDot Labs](https://tinydot.xyz).
 
 Capture a thought, set it aside, and come back when you’re curious again. No account required.
 

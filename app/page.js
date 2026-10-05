@@ -93,7 +93,7 @@ export default function Home() {
           </>}
         </section>
       </main>
-      <footer><span>Built by <a href="https://vibecorp.xyz" target="_blank" rel="noreferrer">VibeCorp ↗</a></span><div><span className="local-note">Saved on this device</span><button id="export" disabled={!ready} onClick={exportIdeas}>Export</button><button id="import" disabled={!ready} onClick={() => importInput.current.click()}>Import</button><input ref={importInput} type="file" id="import-file" accept="application/json,.json" hidden onChange={importIdeas} /></div></footer>
+      <footer><span>Built by <a href="https://tinydot.xyz" target="_blank" rel="noreferrer">TinyDot Labs ↗</a></span><div><span className="local-note">Saved on this device</span><button id="export" disabled={!ready} onClick={exportIdeas}>Export</button><button id="import" disabled={!ready} onClick={() => importInput.current.click()}>Import</button><input ref={importInput} type="file" id="import-file" accept="application/json,.json" hidden onChange={importIdeas} /></div></footer>
     </div>
     {creating && <Editor idea={null} ideas={ideas} persist={persist} notify={notify} onDone={() => setCreating(false)} />}
     <Toast message={toast} />

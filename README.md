@@ -1,4 +1,4 @@
-# Unfinished
+# tinydot.ideas
 
 A minimal place for ideas you’re not ready to finish. Built by [TinyDot Labs](https://tinydot.xyz).
 
@@ -54,7 +54,7 @@ Ideas remain browser-local and do not sync between devices. Export local-preview
 | `app/use-ideas.js` | Browser storage for ideas |
 | `app/layout.js` | Metadata and Vercel Analytics |
 | `app/globals.css` | Responsive styles |
-| `app/icon.svg` | Uppercase U favicon |
+| `app/icon.svg` | Ideas favicon |
 | `lib/ideas.js` | Examples and backup validation |
 | `lib/ideas.test.js` | Backup compatibility and URL slug checks |
 | `lib/graph.js` | Graph nodes: ideas and their categories |
@@ -72,3 +72,7 @@ Bug reports and focused improvements are welcome. See [CONTRIBUTING.md](CONTRIBU
 ## License
 
 [MIT](LICENSE) — Copyright (c) 2026 Aibek Jumabek.
+
+## Branding and domain
+
+The app is tinydot.ideas at `https://ideas.tinydot.xyz`. Add the domain in the hosting provider; `NEXT_PUBLIC_SITE_URL` can override the metadata origin. Existing `unfinished` storage keys and the JSON backup format are preserved. Browser data does not transfer between domains: export ideas from the original domain and import them on the new domain.

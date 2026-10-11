@@ -45,7 +45,7 @@ export default function Home() {
   function exportIdeas() {
     const url = URL.createObjectURL(new Blob([JSON.stringify({ version: 1, ideas }, null, 2)], { type: 'application/json' }));
     const link = document.createElement('a');
-    link.href = url; link.download = `unfinished-${new Date().toISOString().slice(0, 10)}.json`; link.click();
+    link.href = url; link.download = `tinydot.ideas-${new Date().toISOString().slice(0, 10)}.json`; link.click();
     setTimeout(() => URL.revokeObjectURL(url), 1000);
     notify('Backup exported.');
   }
@@ -61,7 +61,7 @@ export default function Home() {
       if (!Array.isArray(current) || !current.every(validIdea)) throw new Error();
       const result = mergeBackup(current, data);
       if (persist(result.ideas)) notify(`Imported ${result.added} ${result.added === 1 ? 'idea' : 'ideas'}. Existing ideas kept.`);
-    } catch { notify('That backup could not be read. Choose an Unfinished JSON export.'); }
+    } catch { notify('That backup could not be read. Choose a tinydot.ideas JSON export.'); }
     input.value = '';
   }
 
@@ -74,7 +74,7 @@ export default function Home() {
 
   return <>
     <div className="shell">
-      <header><h1>Unfinished</h1><button className="button primary" id="new-idea" disabled={!ready} onClick={() => setCreating(true)}>＋ New idea</button></header>
+      <header><h1>tinydot.ideas</h1><button className="button primary" id="new-idea" disabled={!ready} onClick={() => setCreating(true)}>＋ New idea</button></header>
       <main><p className="description">A place for ideas you’re not ready to finish.</p>
         <section className="shelf" aria-label="Your ideas" aria-busy={!ready}>
           <div className="toolbar">

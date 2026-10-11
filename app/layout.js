@@ -6,22 +6,20 @@ import './globals.css';
 const sans = Work_Sans({ subsets: ['latin'], variable: '--font-sans' });
 const mono = Fira_Code({ subsets: ['latin'], variable: '--font-mono' });
 
-const deploymentHost = process.env.VERCEL_PROJECT_PRODUCTION_URL || process.env.VERCEL_URL;
-
 export const metadata = {
-  metadataBase: new URL(deploymentHost ? `https://${deploymentHost}` : 'http://localhost:3000'),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://ideas.tinydot.xyz'),
   openGraph: {
     type: 'website',
-    siteName: 'Unfinished',
-    title: 'Unfinished',
+    siteName: 'tinydot.ideas',
+    title: 'tinydot.ideas',
     description: 'A place for ideas you’re not ready to finish.',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Unfinished',
+    title: 'tinydot.ideas',
     description: 'A place for ideas you’re not ready to finish.',
   },
-  title: 'Unfinished — room to become',
+  title: 'tinydot.ideas — room to become',
   description: 'A quiet place for ideas you’re not ready to finish.',
 };
 export const viewport = {

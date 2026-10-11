@@ -23,7 +23,7 @@ export default function IdeaPage() {
   const pool = saved ? ideas : examples;
   const colorOf = useMemo(() => categoryColors(pool), [pool]);
 
-  useEffect(() => { document.title = idea ? `${idea.title} · Unfinished` : 'Unfinished'; }, [idea]);
+  useEffect(() => { document.title = idea ? `${idea.title} · tinydot.ideas` : 'tinydot.ideas'; }, [idea]);
 
   function done(result) {
     setEditing(false);

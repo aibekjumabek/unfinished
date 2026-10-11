@@ -1,4 +1,4 @@
-# Contributing to Unfinished
+# Contributing to tinydot.ideas
 
 Thanks for helping make a small, thoughtful home for ideas.
 

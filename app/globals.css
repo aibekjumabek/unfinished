@@ -9,3 +9,5 @@ a.card{text-decoration:none;color:inherit}.category-dot{display:inline-block;wid
 @media(max-width:560px){.idea-title{font-size:27px}.idea-nav{margin-bottom:28px}}
 @media(prefers-color-scheme:dark){.graph-pop-card{box-shadow:none}}
 .category-label label{cursor:default}.new-category{display:flex;align-items:center;gap:6px}.new-category input{width:190px;border:1px solid var(--border);border-radius:5px;padding:9px;background:var(--bg);color:var(--ink);font-size:13px}.new-category .icon-button{width:30px;height:30px;font-size:19px}
+
+@media(max-width:560px){.shell>header{flex-wrap:wrap}}

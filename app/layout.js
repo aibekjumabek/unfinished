@@ -10,16 +10,16 @@ export const metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://ideas.tinydot.xyz'),
   openGraph: {
     type: 'website',
-    siteName: 'tinydot.ideas',
-    title: 'tinydot.ideas',
+    siteName: 'TinyIdeas',
+    title: 'TinyIdeas',
     description: 'A place for ideas you’re not ready to finish.',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'tinydot.ideas',
+    title: 'TinyIdeas',
     description: 'A place for ideas you’re not ready to finish.',
   },
-  title: 'tinydot.ideas — room to become',
+  title: 'TinyIdeas — room to become',
   description: 'A quiet place for ideas you’re not ready to finish.',
 };
 export const viewport = {

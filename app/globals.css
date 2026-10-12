@@ -11,3 +11,4 @@ a.card{text-decoration:none;color:inherit}.category-dot{display:inline-block;wid
 .category-label label{cursor:default}.new-category{display:flex;align-items:center;gap:6px}.new-category input{width:190px;border:1px solid var(--border);border-radius:5px;padding:9px;background:var(--bg);color:var(--ink);font-size:13px}.new-category .icon-button{width:30px;height:30px;font-size:19px}
 
 @media(max-width:560px){.shell>header{flex-wrap:wrap}}
+.brand{display:inline-flex;align-items:center;gap:.35em}.brand-logo{height:.85em;width:auto;flex-shrink:0}.made{display:flex;flex-direction:column;gap:6px}.made nav{display:flex;flex-wrap:wrap;gap:10px}.made nav span{color:var(--faint)}

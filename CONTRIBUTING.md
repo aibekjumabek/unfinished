@@ -1,4 +1,4 @@
-# Contributing to tinydot.ideas
+# Contributing to TinyIdeas
 
 Thanks for helping make a small, thoughtful home for ideas.
 

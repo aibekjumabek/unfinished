@@ -1,4 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect width="64" height="64" rx="14" fill="#131111"/>
-  <path d="M28 15h8v8h-8zM28 29h8v20h-8z" fill="#ffead1"/>
+  <!-- the logo (app/logo.js), 60 wide and centred, in the app's ink: dark on light tabs, light on dark -->
+  <style>path { fill: #131111; } @media (prefers-color-scheme: dark) { path { fill: #ffead1; } }</style>
+  <path transform="translate(2 7.51) scale(0.6)" fill-rule="evenodd" d="M28.36 11.96A25.56 25.56 0 0 1 71.64 11.96L97.07 52.4A19.08 19.08 0 0 1 80.92 81.64L19.08 81.64A19.08 19.08 0 0 1 2.93 52.4ZM34.56 47.57a15.39 15.39 0 1 0 30.78 0a15.39 15.39 0 1 0 -30.78 0Z"/>
 </svg>

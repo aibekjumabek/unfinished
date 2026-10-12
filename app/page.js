@@ -6,8 +6,11 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import { examples, mergeBackup, slugsFor, storageKey, validIdea } from '../lib/ideas';
 import { Editor, Toast } from './editor';
 import Graph from './graph';
+import Logo from './logo';
 import { useIdeas } from './use-ideas';
 
+// Tiny Dot Labs, which makes TinyIdeas and hosts its support and legal pages
+const labs = 'https://www.tinydotlabs.com';
 const viewKey = 'unfinished.view';
 const views = ['shelf', 'resting', 'graph'];
 
@@ -45,7 +48,7 @@ export default function Home() {
   function exportIdeas() {
     const url = URL.createObjectURL(new Blob([JSON.stringify({ version: 1, ideas }, null, 2)], { type: 'application/json' }));
     const link = document.createElement('a');
-    link.href = url; link.download = `tinydot.ideas-${new Date().toISOString().slice(0, 10)}.json`; link.click();
+    link.href = url; link.download = `TinyIdeas-${new Date().toISOString().slice(0, 10)}.json`; link.click();
     setTimeout(() => URL.revokeObjectURL(url), 1000);
     notify('Backup exported.');
   }
@@ -61,7 +64,7 @@ export default function Home() {
       if (!Array.isArray(current) || !current.every(validIdea)) throw new Error();
       const result = mergeBackup(current, data);
       if (persist(result.ideas)) notify(`Imported ${result.added} ${result.added === 1 ? 'idea' : 'ideas'}. Existing ideas kept.`);
-    } catch { notify('That backup could not be read. Choose a tinydot.ideas JSON export.'); }
+    } catch { notify('That backup could not be read. Choose a TinyIdeas JSON export.'); }
     input.value = '';
   }
 
@@ -74,7 +77,7 @@ export default function Home() {
 
   return <>
     <div className="shell">
-      <header><h1>tinydot.ideas</h1><button className="button primary" id="new-idea" disabled={!ready} onClick={() => setCreating(true)}>＋ New idea</button></header>
+      <header><h1 className="brand"><Logo className="brand-logo" />TinyIdeas</h1><button className="button primary" id="new-idea" disabled={!ready} onClick={() => setCreating(true)}>＋ New idea</button></header>
       <main><p className="description">A place for ideas you’re not ready to finish.</p>
         <section className="shelf" aria-label="Your ideas" aria-busy={!ready}>
           <div className="toolbar">
@@ -93,7 +96,7 @@ export default function Home() {
           </>}
         </section>
       </main>
-      <footer><span>Built by <a href="https://tinydot.xyz" target="_blank" rel="noreferrer">TinyDot Labs ↗</a></span><div><span className="local-note">Saved on this device</span><button id="export" disabled={!ready} onClick={exportIdeas}>Export</button><button id="import" disabled={!ready} onClick={() => importInput.current.click()}>Import</button><input ref={importInput} type="file" id="import-file" accept="application/json,.json" hidden onChange={importIdeas} /></div></footer>
+      <footer><span className="made"><nav aria-label="Legal"><a href={`${labs}/support`}>Support</a><span aria-hidden="true">|</span><a href={`${labs}/privacy`}>Privacy</a><span aria-hidden="true">|</span><a href={`${labs}/terms`}>Terms</a></nav><span>© {new Date().getFullYear()} TinyIdeas from <a href={labs}>Tiny Dot Labs</a></span></span><div><span className="local-note">Saved on this device</span><button id="export" disabled={!ready} onClick={exportIdeas}>Export</button><button id="import" disabled={!ready} onClick={() => importInput.current.click()}>Import</button><input ref={importInput} type="file" id="import-file" accept="application/json,.json" hidden onChange={importIdeas} /></div></footer>
     </div>
     {creating && <Editor idea={null} ideas={ideas} persist={persist} notify={notify} onDone={() => setCreating(false)} />}
     <Toast message={toast} />

@@ -1,6 +1,6 @@
-# tinydot.ideas
+# TinyIdeas
 
-A minimal place for ideas you’re not ready to finish. Built by [TinyDot Labs](https://tinydot.xyz).
+A minimal place for ideas you’re not ready to finish. Built by [Tiny Dot Labs](https://www.tinydotlabs.com).
 
 Capture a thought, set it aside, and come back when you’re curious again. No account required.
 
@@ -75,4 +75,4 @@ Bug reports and focused improvements are welcome. See [CONTRIBUTING.md](CONTRIBU
 
 ## Branding and domain
 
-The app is tinydot.ideas at `https://ideas.tinydot.xyz`. Add the domain in the hosting provider; `NEXT_PUBLIC_SITE_URL` can override the metadata origin. Existing `unfinished` storage keys and the JSON backup format are preserved. Browser data does not transfer between domains: export ideas from the original domain and import them on the new domain.
+The app is TinyIdeas at `https://ideas.tinydot.xyz`. Add the domain in the hosting provider; `NEXT_PUBLIC_SITE_URL` can override the metadata origin. Existing `unfinished` storage keys and the JSON backup format are preserved. Browser data does not transfer between domains: export ideas from the original domain and import them on the new domain.

@@ -7,7 +7,7 @@ const sans = Work_Sans({ subsets: ['latin'], variable: '--font-sans' });
 const mono = Fira_Code({ subsets: ['latin'], variable: '--font-mono' });
 
 export const metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://ideas.tinydot.xyz'),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://ideas.tinydot.dev'),
   openGraph: {
     type: 'website',
     siteName: 'TinyIdeas',

@@ -75,4 +75,4 @@ Bug reports and focused improvements are welcome. See [CONTRIBUTING.md](CONTRIBU
 
 ## Branding and domain
 
-The app is TinyIdeas at `https://ideas.tinydot.xyz`. Add the domain in the hosting provider; `NEXT_PUBLIC_SITE_URL` can override the metadata origin. Existing `unfinished` storage keys and the JSON backup format are preserved. Browser data does not transfer between domains: export ideas from the original domain and import them on the new domain.
+The app is TinyIdeas at `https://ideas.tinydot.dev`. Add the domain in the hosting provider; `NEXT_PUBLIC_SITE_URL` can override the metadata origin. Existing `unfinished` storage keys and the JSON backup format are preserved. Browser data does not transfer between domains: export ideas from the original domain and import them on the new domain.
